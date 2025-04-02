@@ -1,50 +1,31 @@
 // audio files
-import beautiful from './a_beautiful_day.mp3';
-import world from './We_Are_The_World.mp3';
-import top from './dbang-world.mp3';
-import cinematic from './cinematic-time-lapse-115672.mp3';
-import forest from './forest-lullaby-110624.mp3';
-import podcast from './the-podcast-intro-111863.mp3';
+import lean_on from './Lean On - Major Lazer, DJ Snake.mp3'
+import no_lie from './No Lie - Sean Paul, Dua Lipa.mp3';
+import levitating from './Levitating - Dua Lipa.mp3'
 
 // audio thumbnails
-import lexin from './lexin.jpeg';
-import dbanj from './dbanj.png';
-import jackson from './jackson.jpeg';
-import trinix from './trinix.jpeg';
+import lean_on_thumbnail from './Lean On - Major Lazer, DJ Snake.jpg'
+import no_lie_thumbnail from './No Lie - Sean Paul, Dua Lipa.jpg';
+import levitating_thumbnail from './Levitating - Dua Lipa.jpg'
 
+// Data
 export const tracks = [
   {
-    title: 'Trinix ft Rushawn – Its a beautiful day',
-    src: beautiful,
-    author: 'Trinix ft Rushawn',
-    thumbnail: trinix,
+    title: 'No Lie - Sean Paul, Dua Lipa',
+    src: no_lie,
+    author: 'Sean Paul, Dua Lipa',
+    thumbnail: no_lie_thumbnail,
   },
   {
-    title: 'Michael Jackson – We Are The World',
-    src: world,
-    author: 'Michael Jackson',
-    thumbnail: jackson,
+    title: 'Levitating - Dua Lipa',
+    src: levitating,
+    author: 'Dua Lipa',
+    thumbnail: levitating_thumbnail,
   },
   {
-    title: 'D’banj -Top Of The World',
-    src: top,
-    author: 'Dbanj',
-    thumbnail: dbanj,
-  },
-  {
-    title: 'Cinematic Time Lapse',
-    src: cinematic,
-    author: 'Lexin Music',
-    thumbnail: lexin,
-  },
-  {
-    title: 'Forest Lullaby',
-    src: forest,
-    author: 'Lesfm',
-  },
-  {
-    title: 'The Podcast Intro',
-    src: podcast,
-    author: 'Music Unlimited',
+    title: 'Lean On - Major Lazer, DJ Snake',
+    src: lean_on,
+    author: 'Major Lazer, DJ Snake',
+    thumbnail: lean_on_thumbnail,
   },
 ];
