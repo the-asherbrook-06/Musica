@@ -28,10 +28,10 @@ export const AudioPlayer = () => {
 
       <div
         className={`transition-max-height duration-300 ease-in-out overflow-hidden ${
-          openDrawer ? 'max-h-72' : 'max-h-0'
+          openDrawer ? 'max-h-96' : 'max-h-0'
         }`}
       >
-        <div className="bg-[#4c4848] text-white max-h-72 overflow-y-auto">
+        <div className="bg-[#4c4848] text-white max-h-96 overflow-y-auto">
           <PlayList />
         </div>
       </div>
